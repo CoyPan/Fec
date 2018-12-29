@@ -1,0 +1,33 @@
+{
+  "name": "fec",
+  "version": "0.0.1",
+  "description": "front error collect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "front-end",
+    "error"
+  ],
+  "author": "coypan",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-plugin-import": "^1.8.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.22.0"
+  },
+  "dependencies": {
+    "tinny": "0.0.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
